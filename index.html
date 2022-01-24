@@ -6,27 +6,32 @@
  <meta http-equiv="X-UA-Compatible" content="ie=edge">
  <title>Isaac R San</title>
  <style>
- body {
+ *, ::before, ::after {
+  box-sizing: inherit;
+ }
+ html, body {
+  box-sizing: border-box;
+  height: 100%;
+  margin: 0;
+  padding: 0;
   background-color: #00334e;
  }
  section {
-  width: 100%;
   display: flex;
-  margin: 20px;
-  align-items: center;
+  height: 100%;
+  max-width: 3000px;
+  padding: 5vmin;
  } 
  nav {
   display: flex;
   flex-direction: column;
   align-items: center;
-  align-self: stretch;
   justify-content: space-around;
-  width: 40%;
   }
  h1 {
-    font-size: 10rem;
+    font-size: 7rem;
     color: #5588a3;
-    width: 60%;
+    align-self: center;
  }
  a {
     font-size: 4rem;
@@ -43,7 +48,7 @@
  <section>
  <h1>Isaac R San, software, computer, electronic & cybersecurity enthusiast</h1>
 <nav>
- <a href="https://git.rsan.org">Git Projects</a>
+ <a href="https://git.rsan.org">Git</a>
  <a href="https://fosstodon.org/web/@isaacrsan">Fosstodon</a>
  <a href="https://mastodon.social/@isaacrsan">Mastodon</a>
  <a href="https://www.hathacker.org">Blog</a>
